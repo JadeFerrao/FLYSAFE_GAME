@@ -1,42 +1,46 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>FLY SAFE.com</title>
-<style>
-.container {
-  position: relative;
-  width: 100%;
-}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLY SAFE.com</title>
+    <style>
+        .container {
+            position: relative;
+            width: 100%;
+            text-align: center;
+        }
 
-.container img {
-  width: 500%;
-  height: auto;
-}
+        .container img {
+            width: 100%;
+            height: auto;
+        }
 
-.container .btn {
-  position: absolute;
-  top: 50%;
-  left: 47%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: red;
-  color: white;
-  font-size: 16px;
-  padding: 12px 30px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-}
+        .btn {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: red;
+            color: white;
+            font-size: 16px;
+            padding: 12px 30px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+        }
 
-.container .btn:hover {
-  background-color: none;
-}
-</style>
+        .btn:hover {
+            background-color: darkred;
+        }
+    </style>
 </head>
 <body>
-<div class="container">
-  <img src="airport.png" style="width:100%">
-  <button class="btn"><a class="active" href="gameplaycodes.html">PLAY</a></button>
-</div>
+    <div class="container">
+        <img src="airport.png" alt="Airport">
+        <a href="gameplaycodes.html" class="btn">PLAY</a>
+    </div>
 </body>
 </html>
